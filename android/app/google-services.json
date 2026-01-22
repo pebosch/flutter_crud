@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "400812090135",
+    "project_id": "fl-database2026",
+    "storage_bucket": "fl-database2026.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:400812090135:android:81ca92de76e81bd7e00d52",
+        "android_client_info": {
+          "package_name": "com.example.flutter_crud"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBqRlvLhC-jTb352sUKolnHH0SeL_QOooI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
