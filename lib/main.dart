@@ -24,6 +24,7 @@ class MyApp extends StatelessWidget {
       routes: {
         'home': (context) => Home(),
         'insert': (context) => InsertVideojuegoScreen(),
+        'update': (context) => UpdateVideojuegoScreen(),
       },
       home: Home(),
     );

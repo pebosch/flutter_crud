@@ -24,7 +24,18 @@ class _HomeState extends State<Home> {
             return ListView.builder(
             itemCount: snapshot.data?.length,
             itemBuilder: (context, index) {
-              return Text(snapshot.data?[index]['nombre']);
+              return ListTile(
+                title: Text(snapshot.data?[index]['nombre']),
+                onTap: () async {
+                  await Navigator.pushNamed(context, "update", arguments: {
+                    "nombre": snapshot.data?[index]['nombre'],
+                    "uid": snapshot.data?[index]['uid'],
+                  });
+                  setState(() {
+                    
+                  });
+                },
+              ); 
             },
           );
           } else { return Center (
